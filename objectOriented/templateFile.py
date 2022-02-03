@@ -40,19 +40,13 @@ class workspace:
         self.initialiseDefaults()
 
 
+
     def getTestObj(self):
 
         self.reloadClasses()
         self.testObj = self.test()
 
         return self.testObj
-
-    def getClassObj(self):
-
-        self.reloadClasses()
-        self.templateClassObj = self.templateClass()
-
-        return self.templateClassObj
 
 
 
